@@ -13,7 +13,7 @@ const NavBar = () => {
           Home
         </NavLink>
         <NavLink className="nav-item me-5" to="/all-quotes">
-          All Quotes
+          Quote Of The Day
         </NavLink>
         <NavLink className="nav-item me-5" to="/search">
           Search

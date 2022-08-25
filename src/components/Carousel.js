@@ -4,7 +4,7 @@ import Loader from "./Loader";
 
 const Carousel = () => {
   const [quotes, setQuotes] = React.useState([]);
-  const baseURL = process.env.REACT_APP_LOCALHOST_URL;
+  const baseURL = process.env.REACT_APP_PROD_URL;
 
   React.useEffect(() => {
     axios.get(`${baseURL}/moti-quotes`).then((res) => {
